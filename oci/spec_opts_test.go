@@ -30,12 +30,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/containerd/containerd/content"
+	"github.com/demonoid81/containerd/content"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

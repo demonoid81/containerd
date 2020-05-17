@@ -19,10 +19,10 @@ package v2
 import (
 	"context"
 
-	tasktypes "github.com/containerd/containerd/api/types/task"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/runtime"
-	"github.com/containerd/containerd/runtime/v2/task"
+	tasktypes "github.com/demonoid81/containerd/api/types/task"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/runtime"
+	"github.com/demonoid81/containerd/runtime/v2/task"
 	"github.com/containerd/ttrpc"
 	"github.com/pkg/errors"
 )

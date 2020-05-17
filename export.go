@@ -20,7 +20,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/containerd/containerd/images/archive"
+	"github.com/demonoid81/containerd/images/archive"
 )
 
 // Export exports images to a Tar stream.

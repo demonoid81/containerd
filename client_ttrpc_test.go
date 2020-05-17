@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	v1 "github.com/containerd/containerd/api/services/ttrpc/events/v1"
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/pkg/ttrpcutil"
+	v1 "github.com/demonoid81/containerd/api/services/ttrpc/events/v1"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/pkg/ttrpcutil"
 	"github.com/containerd/ttrpc"
 	"github.com/gogo/protobuf/types"
 	"gotest.tools/v3/assert"

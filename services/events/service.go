@@ -19,12 +19,12 @@ package events
 import (
 	"context"
 
-	api "github.com/containerd/containerd/api/services/events/v1"
-	apittrpc "github.com/containerd/containerd/api/services/ttrpc/events/v1"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/events/exchange"
-	"github.com/containerd/containerd/plugin"
+	api "github.com/demonoid81/containerd/api/services/events/v1"
+	apittrpc "github.com/demonoid81/containerd/api/services/ttrpc/events/v1"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/events/exchange"
+	"github.com/demonoid81/containerd/plugin"
 	"github.com/containerd/ttrpc"
 	ptypes "github.com/gogo/protobuf/types"
 	"github.com/pkg/errors"

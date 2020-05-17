@@ -22,7 +22,7 @@ import (
 	"context"
 
 	"github.com/containerd/console"
-	"github.com/containerd/containerd/errdefs"
+	"github.com/demonoid81/containerd/errdefs"
 	google_protobuf "github.com/gogo/protobuf/types"
 	"github.com/pkg/errors"
 )

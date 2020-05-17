@@ -24,7 +24,7 @@ if [[ -z "${VERSION:-}" ]]; then
   exit 1
 fi
 
-ROOT=${GOPATH}/src/github.com/containerd/containerd
+ROOT=${GOPATH}/src/github.com/demonoid81/containerd
 CRI_COMMIT=$(grep github.com/containerd/cri ${ROOT}/vendor.conf | awk '{print $2}')
 
 go get -d github.com/containerd/cri/...

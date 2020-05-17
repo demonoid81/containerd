@@ -19,7 +19,7 @@ package local
 import (
 	"sync"
 
-	"github.com/containerd/containerd/errdefs"
+	"github.com/demonoid81/containerd/errdefs"
 	"github.com/pkg/errors"
 )
 

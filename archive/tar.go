@@ -28,7 +28,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/log"
 	"github.com/containerd/continuity/fs"
 	"github.com/pkg/errors"
 )

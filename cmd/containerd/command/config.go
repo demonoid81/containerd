@@ -22,9 +22,9 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/containerd/containerd/pkg/timeout"
-	"github.com/containerd/containerd/services/server"
-	srvconfig "github.com/containerd/containerd/services/server/config"
+	"github.com/demonoid81/containerd/pkg/timeout"
+	"github.com/demonoid81/containerd/services/server"
+	srvconfig "github.com/demonoid81/containerd/services/server/config"
 	"github.com/urfave/cli"
 )
 

@@ -20,9 +20,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/leases"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/leases"
 	"github.com/opencontainers/image-spec/identity"
 )
 

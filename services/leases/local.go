@@ -19,11 +19,11 @@ package leases
 import (
 	"context"
 
-	"github.com/containerd/containerd/gc"
-	"github.com/containerd/containerd/leases"
-	"github.com/containerd/containerd/metadata"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/services"
+	"github.com/demonoid81/containerd/gc"
+	"github.com/demonoid81/containerd/leases"
+	"github.com/demonoid81/containerd/metadata"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/services"
 )
 
 func init() {

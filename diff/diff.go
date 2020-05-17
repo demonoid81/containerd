@@ -19,7 +19,7 @@ package diff
 import (
 	"context"
 
-	"github.com/containerd/containerd/mount"
+	"github.com/demonoid81/containerd/mount"
 	"github.com/gogo/protobuf/types"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

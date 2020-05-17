@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/plugin"
 	"github.com/pkg/errors"
 )
 

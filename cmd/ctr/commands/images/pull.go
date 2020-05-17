@@ -19,12 +19,12 @@ package images
 import (
 	"fmt"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/cmd/ctr/commands"
-	"github.com/containerd/containerd/cmd/ctr/commands/content"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/cmd/ctr/commands"
+	"github.com/demonoid81/containerd/cmd/ctr/commands/content"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"

@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/containerd/containerd/mount"
+	"github.com/demonoid81/containerd/mount"
 	"gotest.tools/v3/assert"
 )
 

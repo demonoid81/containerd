@@ -27,11 +27,11 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/pkg/testutil"
-	"github.com/containerd/containerd/snapshots"
-	"github.com/containerd/containerd/snapshots/storage"
-	"github.com/containerd/containerd/snapshots/testsuite"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots/storage"
+	"github.com/demonoid81/containerd/snapshots/testsuite"
 )
 
 func newSnapshotterWithOpts(opts ...Opt) testsuite.SnapshotterFunc {

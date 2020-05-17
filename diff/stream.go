@@ -21,8 +21,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/containerd/containerd/archive/compression"
-	"github.com/containerd/containerd/images"
+	"github.com/demonoid81/containerd/archive/compression"
+	"github.com/demonoid81/containerd/images"
 	"github.com/gogo/protobuf/types"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

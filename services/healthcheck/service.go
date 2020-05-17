@@ -17,7 +17,7 @@
 package healthcheck
 
 import (
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/plugin"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"

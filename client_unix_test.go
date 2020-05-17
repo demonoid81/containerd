@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd/platforms"
 )
 
 const (

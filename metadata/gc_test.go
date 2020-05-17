@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/gc"
-	"github.com/containerd/containerd/metadata/boltutil"
+	"github.com/demonoid81/containerd/gc"
+	"github.com/demonoid81/containerd/metadata/boltutil"
 	digest "github.com/opencontainers/go-digest"
 	bolt "go.etcd.io/bbolt"
 )

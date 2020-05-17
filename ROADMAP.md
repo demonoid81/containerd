@@ -21,8 +21,8 @@ Development is complex therefore roadmap items can move between milestones depen
 
 To find the roadmap items currently planned for containerd you can filter on the `roadmap` label.
 
-[Search Roadmap Items](https://github.com/containerd/containerd/issues?q=is%3Aopen+is%3Aissue+label%3Aroadmap)
+[Search Roadmap Items](https://github.com/demonoid81/containerd/issues?q=is%3Aopen+is%3Aissue+label%3Aroadmap)
 
 After searching for roadmap items you can view what milestone they are scheduled to be completed in along with the progress.
 
-[View Milestones](https://github.com/containerd/containerd/milestones)
+[View Milestones](https://github.com/demonoid81/containerd/milestones)

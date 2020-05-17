@@ -29,9 +29,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/pkg/dialer"
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/pkg/dialer"
+	"github.com/demonoid81/containerd/sys"
 	"github.com/pkg/errors"
 )
 

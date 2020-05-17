@@ -20,8 +20,8 @@ import (
 	"context"
 	"syscall"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/cio"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/cio"
 )
 
 type stopChange struct {

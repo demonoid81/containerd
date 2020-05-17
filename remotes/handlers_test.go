@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/containerd/containerd/images"
+	"github.com/demonoid81/containerd/images"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	v1 "github.com/containerd/containerd/api/services/ttrpc/events/v1"
-	"github.com/containerd/containerd/pkg/dialer"
+	v1 "github.com/demonoid81/containerd/api/services/ttrpc/events/v1"
+	"github.com/demonoid81/containerd/pkg/dialer"
 	"github.com/containerd/ttrpc"
 	"github.com/pkg/errors"
 )

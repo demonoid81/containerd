@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/containerd/containerd/leases"
+	"github.com/demonoid81/containerd/leases"
 )
 
 // WithLease attaches a lease on the context

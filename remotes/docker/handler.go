@@ -22,11 +22,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/labels"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/reference"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/labels"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/reference"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

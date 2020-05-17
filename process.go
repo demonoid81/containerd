@@ -22,9 +22,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/containerd/containerd/api/services/tasks/v1"
-	"github.com/containerd/containerd/cio"
-	"github.com/containerd/containerd/errdefs"
+	"github.com/demonoid81/containerd/api/services/tasks/v1"
+	"github.com/demonoid81/containerd/cio"
+	"github.com/demonoid81/containerd/errdefs"
 	"github.com/pkg/errors"
 )
 

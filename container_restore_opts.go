@@ -19,9 +19,9 @@ package containerd
 import (
 	"context"
 
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/images"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/images"
 	"github.com/gogo/protobuf/proto"
 	ptypes "github.com/gogo/protobuf/types"
 	"github.com/opencontainers/image-spec/identity"

@@ -17,8 +17,8 @@
 package containers
 
 import (
-	api "github.com/containerd/containerd/api/services/containers/v1"
-	"github.com/containerd/containerd/containers"
+	api "github.com/demonoid81/containerd/api/services/containers/v1"
+	"github.com/demonoid81/containerd/containers"
 )
 
 func containersToProto(containers []containers.Container) []api.Container {

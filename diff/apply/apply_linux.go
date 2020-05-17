@@ -23,10 +23,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/containerd/containerd/archive"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/archive"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/sys"
 	"github.com/pkg/errors"
 )
 
@@ -34,7 +34,7 @@ func apply(ctx context.Context, mounts []mount.Mount, r io.Reader) error {
 	switch {
 	case len(mounts) == 1 && mounts[0].Type == "overlay":
 		// OverlayConvertWhiteout (mknod c 0 0) doesn't work in userns.
-		// https://github.com/containerd/containerd/issues/3762
+		// https://github.com/demonoid81/containerd/issues/3762
 		if sys.RunningInUserNS() {
 			break
 		}

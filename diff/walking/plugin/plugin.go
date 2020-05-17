@@ -17,12 +17,12 @@
 package plugin
 
 import (
-	"github.com/containerd/containerd/diff"
-	"github.com/containerd/containerd/diff/apply"
-	"github.com/containerd/containerd/diff/walking"
-	"github.com/containerd/containerd/metadata"
-	"github.com/containerd/containerd/platforms"
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/diff"
+	"github.com/demonoid81/containerd/diff/apply"
+	"github.com/demonoid81/containerd/diff/walking"
+	"github.com/demonoid81/containerd/metadata"
+	"github.com/demonoid81/containerd/platforms"
+	"github.com/demonoid81/containerd/plugin"
 )
 
 func init() {

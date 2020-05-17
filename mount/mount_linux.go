@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/sys"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )
@@ -118,7 +118,7 @@ func isFUSE(dir string) (bool, error) {
 
 func unmount(target string, flags int) error {
 	// For FUSE mounts, attempting to execute fusermount helper binary is preferred
-	// https://github.com/containerd/containerd/pull/3765#discussion_r342083514
+	// https://github.com/demonoid81/containerd/pull/3765#discussion_r342083514
 	if ok, err := isFUSE(target); err == nil && ok {
 		for _, helperBinary := range []string{"fusermount3", "fusermount"} {
 			cmd := exec.Command(helperBinary, "-u", target)

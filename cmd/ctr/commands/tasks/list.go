@@ -21,8 +21,8 @@ import (
 	"os"
 	"text/tabwriter"
 
-	tasks "github.com/containerd/containerd/api/services/tasks/v1"
-	"github.com/containerd/containerd/cmd/ctr/commands"
+	tasks "github.com/demonoid81/containerd/api/services/tasks/v1"
+	"github.com/demonoid81/containerd/cmd/ctr/commands"
 	"github.com/urfave/cli"
 )
 

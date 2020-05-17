@@ -23,7 +23,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/containerd/containerd/reference"
+	"github.com/demonoid81/containerd/reference"
 )
 
 // repositoryScope returns a repository scope string such as "repository:foo/bar:pull"

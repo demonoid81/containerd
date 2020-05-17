@@ -20,8 +20,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/events/exchange"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/events/exchange"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

@@ -13,7 +13,7 @@ with an image registry, or loading an image from tar. containerd's Go client
 gives a user access to many points of extensions from creating their own
 options on container creation to resolving image registry names.
 
-See [containerd's Go documentation](https://godoc.org/github.com/containerd/containerd)
+See [containerd's Go documentation](https://godoc.org/github.com/demonoid81/containerd)
 
 ## External Plugins
 
@@ -61,12 +61,12 @@ currently supported types are `snapshot` and `content`.
 
 Implementing a proxy plugin is as easy as implementing the gRPC API for a
 service. For implementing a proxy plugin in Go, look at the go doc for
-[content store service](https://godoc.org/github.com/containerd/containerd/api/services/content/v1#ContentServer)
-and [snapshotter service](https://godoc.org/github.com/containerd/containerd/api/services/snapshots/v1#SnapshotsServer).
+[content store service](https://godoc.org/github.com/demonoid81/containerd/api/services/content/v1#ContentServer)
+and [snapshotter service](https://godoc.org/github.com/demonoid81/containerd/api/services/snapshots/v1#SnapshotsServer).
 
 The following example creates a snapshot plugin binary which can be used
 with any implementation of
-[containerd's Snapshotter interface](https://godoc.org/github.com/containerd/containerd/snapshots#Snapshotter)
+[containerd's Snapshotter interface](https://godoc.org/github.com/demonoid81/containerd/snapshots#Snapshotter)
 ```go
 package main
 
@@ -77,9 +77,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	snapshotsapi "github.com/containerd/containerd/api/services/snapshots/v1"
-	"github.com/containerd/containerd/contrib/snapshotservice"
-	"github.com/containerd/containerd/snapshots/native"
+	snapshotsapi "github.com/demonoid81/containerd/api/services/snapshots/v1"
+	"github.com/demonoid81/containerd/contrib/snapshotservice"
+	"github.com/demonoid81/containerd/snapshots/native"
 )
 
 func main() {
@@ -97,7 +97,7 @@ func main() {
 	// Configure your custom snapshotter, this example uses the native
 	// snapshotter and a root directory. Your custom snapshotter will be
 	// much more useful than using a snapshotter which is already included.
-	// https://godoc.org/github.com/containerd/containerd/snapshots#Snapshotter
+	// https://godoc.org/github.com/demonoid81/containerd/snapshots#Snapshotter
 	sn, err := native.NewSnapshotter(os.Args[2])
 	if err != nil {
 		fmt.Printf("error: %v\n", err)
@@ -105,7 +105,7 @@ func main() {
 	}
 
 	// Convert the snapshotter to a gRPC service,
-	// example in github.com/containerd/containerd/contrib/snapshotservice
+	// example in github.com/demonoid81/containerd/contrib/snapshotservice
 	service := snapshotservice.FromSnapshotter(sn)
 
 	// Register the service with the gRPC server

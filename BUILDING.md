@@ -28,7 +28,7 @@ end you need to have `GOPATH` and `GOROOT` set in your environment.
 At this point you can use `go` to checkout `containerd` in your `GOPATH`:
 
 ```sh
-go get github.com/containerd/containerd
+go get github.com/demonoid81/containerd
 ```
 
 For proper results, install the `protoc` release into `/usr/local` on your build system. For example, the following commands will download and install the 3.11.4 release for a 64-bit Linux host:
@@ -83,7 +83,7 @@ result in undefined behavior.
 can run:
 
 ```
-cd $GOPATH/src/github.com/containerd/containerd
+cd $GOPATH/src/github.com/demonoid81/containerd
 make
 ```
 
@@ -151,9 +151,9 @@ containerd source root directory you can run the following command:
 
 ```sh
 docker run -it \
-    -v ${PWD}:/go/src/github.com/containerd/containerd \
+    -v ${PWD}:/go/src/github.com/demonoid81/containerd \
     -e GOPATH=/go \
-    -w /go/src/github.com/containerd/containerd containerd/build sh
+    -w /go/src/github.com/demonoid81/containerd containerd/build sh
 ```
 
 This mounts `containerd` repository
@@ -191,9 +191,9 @@ Let's suppose you build an image called `containerd/build` from the above Docker
 docker run -it --privileged \
     -v /var/lib/containerd \
     -v ${GOPATH}/src/github.com/opencontainers/runc:/go/src/github.com/opencontainers/runc \
-    -v ${GOPATH}/src/github.com/containerd/containerd:/go/src/github.com/containerd/containerd \
+    -v ${GOPATH}/src/github.com/demonoid81/containerd:/go/src/github.com/demonoid81/containerd \
     -e GOPATH=/go \
-    -w /go/src/github.com/containerd/containerd containerd/build sh
+    -w /go/src/github.com/demonoid81/containerd containerd/build sh
 ```
 
 This mounts both `runc` and `containerd` repositories in our Docker container.
@@ -201,7 +201,7 @@ This mounts both `runc` and `containerd` repositories in our Docker container.
 From within our Docker container let's build `containerd`:
 
 ```sh
-cd /go/src/github.com/containerd/containerd
+cd /go/src/github.com/demonoid81/containerd
 make && make install
 ```
 
@@ -246,7 +246,7 @@ INFO[0000] running tests against containerd revision=f2ae8a020a985a8d9862c9eb5ab
 === RUN   TestContainerList
 --- PASS: TestContainerList (0.00s)
 PASS
-ok  	github.com/containerd/containerd	4.778s
+ok  	github.com/demonoid81/containerd	4.778s
 ```
 
 ## Additional tools

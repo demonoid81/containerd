@@ -22,9 +22,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/runtime/v2/shim"
-	taskAPI "github.com/containerd/containerd/runtime/v2/task"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/runtime/v2/shim"
+	taskAPI "github.com/demonoid81/containerd/runtime/v2/task"
 	ptypes "github.com/gogo/protobuf/types"
 )
 

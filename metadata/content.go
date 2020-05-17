@@ -24,13 +24,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/filters"
-	"github.com/containerd/containerd/labels"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/metadata/boltutil"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/filters"
+	"github.com/demonoid81/containerd/labels"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/metadata/boltutil"
+	"github.com/demonoid81/containerd/namespaces"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -365,7 +365,7 @@ func (cs *contentStore) Writer(ctx context.Context, opts ...content.WriterOpt) (
 		}
 	}
 	// TODO(AkihiroSuda): we could create a random string or one calculated based on the context
-	// https://github.com/containerd/containerd/issues/2129#issuecomment-380255019
+	// https://github.com/demonoid81/containerd/issues/2129#issuecomment-380255019
 	if wOpts.Ref == "" {
 		return nil, errors.Wrap(errdefs.ErrInvalidArgument, "ref must not be empty")
 	}

@@ -24,8 +24,8 @@ import (
 	"github.com/imdario/mergo"
 	"github.com/pkg/errors"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/plugin"
 )
 
 // NOTE: Any new map fields added also need to be handled in mergeConfig.

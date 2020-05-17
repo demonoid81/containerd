@@ -19,8 +19,8 @@ package commands
 import (
 	gocontext "context"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/urfave/cli"
 )
 

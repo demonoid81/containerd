@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/platforms"
 
-	"github.com/containerd/containerd/containers"
+	"github.com/demonoid81/containerd/containers"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -34,11 +34,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"
 
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/snapshots"
-	"github.com/containerd/containerd/snapshots/devmapper"
-	"github.com/containerd/containerd/snapshots/native"
-	"github.com/containerd/containerd/snapshots/overlay"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots/devmapper"
+	"github.com/demonoid81/containerd/snapshots/native"
+	"github.com/demonoid81/containerd/snapshots/overlay"
 )
 
 var (

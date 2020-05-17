@@ -22,7 +22,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/containerd/containerd"
+	"github.com/demonoid81/containerd"
 	"github.com/sirupsen/logrus"
 )
 

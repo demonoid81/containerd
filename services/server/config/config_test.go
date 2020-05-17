@@ -25,7 +25,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/plugin"
 )
 
 func TestMergeConfigs(t *testing.T) {

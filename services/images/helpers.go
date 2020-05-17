@@ -17,9 +17,9 @@
 package images
 
 import (
-	imagesapi "github.com/containerd/containerd/api/services/images/v1"
-	"github.com/containerd/containerd/api/types"
-	"github.com/containerd/containerd/images"
+	imagesapi "github.com/demonoid81/containerd/api/services/images/v1"
+	"github.com/demonoid81/containerd/api/types"
+	"github.com/demonoid81/containerd/images"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

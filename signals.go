@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/images"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/images"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

@@ -22,12 +22,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/platforms"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/snapshots"
-	"github.com/containerd/containerd/snapshots/storage"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/platforms"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots/storage"
 
 	"github.com/containerd/continuity/fs"
 	"github.com/pkg/errors"

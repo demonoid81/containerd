@@ -1,5 +1,5 @@
 file {
-  name: "github.com/containerd/containerd/runtime/v2/runc/options/oci.proto"
+  name: "github.com/demonoid81/containerd/runtime/v2/runc/options/oci.proto"
   package: "containerd.runc.v1"
   dependency: "gogoproto/gogo.proto"
   message_type {
@@ -159,7 +159,7 @@ file {
     }
   }
   options {
-    go_package: "github.com/containerd/containerd/runtime/v2/runc/options;options"
+    go_package: "github.com/demonoid81/containerd/runtime/v2/runc/options;options"
   }
   weak_dependency: 0
   syntax: "proto3"

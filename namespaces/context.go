@@ -20,8 +20,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/identifiers"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/identifiers"
 	"github.com/pkg/errors"
 )
 

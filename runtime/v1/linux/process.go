@@ -21,11 +21,11 @@ package linux
 import (
 	"context"
 
-	eventstypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/api/types/task"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/runtime"
-	shim "github.com/containerd/containerd/runtime/v1/shim/v1"
+	eventstypes "github.com/demonoid81/containerd/api/events"
+	"github.com/demonoid81/containerd/api/types/task"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/runtime"
+	shim "github.com/demonoid81/containerd/runtime/v1/shim/v1"
 	"github.com/containerd/ttrpc"
 	"github.com/pkg/errors"
 )

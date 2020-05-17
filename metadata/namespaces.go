@@ -19,10 +19,10 @@ package metadata
 import (
 	"context"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/identifiers"
-	l "github.com/containerd/containerd/labels"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/identifiers"
+	l "github.com/demonoid81/containerd/labels"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 )

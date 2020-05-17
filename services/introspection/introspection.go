@@ -19,8 +19,8 @@ package introspection
 import (
 	context "context"
 
-	api "github.com/containerd/containerd/api/services/introspection/v1"
-	"github.com/containerd/containerd/errdefs"
+	api "github.com/demonoid81/containerd/api/services/introspection/v1"
+	"github.com/demonoid81/containerd/errdefs"
 	ptypes "github.com/gogo/protobuf/types"
 )
 

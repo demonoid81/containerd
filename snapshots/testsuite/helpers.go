@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/snapshots"
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/pkg/errors"
 )

@@ -19,7 +19,7 @@ $ rootlesskit --net=slirp4netns --copy-up=/etc --copy-up=/run \
   so that the user can add/remove files under `/DIR` in the mount namespace.
   `--copy-up=/etc` and `--copy-up=/run` are needed on typical setup.
   Depending on the containerd plugin configuration, you may also need to add more `--copy-up` options.
-* `rm -rf /run/containerd` is required for v2 shim as a workaround for [#2767](https://github.com/containerd/containerd/issues/2767).
+* `rm -rf /run/containerd` is required for v2 shim as a workaround for [#2767](https://github.com/demonoid81/containerd/issues/2767).
   This command removes the "copied-up" symbolic link to `/run/containerd` on the parent namespace (if exists), which cannot be accessed by non-root users.
   The actual `/run/containerd` directory on the host is not affected.
 * `--state-dir` is set to a random directory under `/tmp` if unset. RootlessKit writes the PID to a file named `child_pid` under this directory.

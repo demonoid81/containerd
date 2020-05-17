@@ -17,8 +17,8 @@
 package namespaces
 
 import (
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/runtime/opts"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/runtime/opts"
 	"github.com/urfave/cli"
 )
 

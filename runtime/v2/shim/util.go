@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"
 	"github.com/pkg/errors"

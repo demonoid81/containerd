@@ -19,12 +19,12 @@ package metadata
 import (
 	"strings"
 
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/filters"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/leases"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/filters"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/leases"
+	"github.com/demonoid81/containerd/snapshots"
 )
 
 func adaptImage(o interface{}) filters.Adaptor {

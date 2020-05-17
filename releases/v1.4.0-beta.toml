@@ -24,44 +24,44 @@ value of our core principles to easily expand support for different use cases
 while driving toward ever increasing stability.
 
 ### Runtime
-* **Support cgroups v2** [#3726](https://github.com/containerd/containerd/pull/3726)
+* **Support cgroups v2** [#3726](https://github.com/demonoid81/containerd/pull/3726)
 * **Improved SELinux support**
-* **Rework shim logger shutdown process** [#4162](https://github.com/containerd/containerd/pull/4162)
+* **Rework shim logger shutdown process** [#4162](https://github.com/demonoid81/containerd/pull/4162)
 
 ### Snapshots
-* **Support target snapshot option on prepare to allow skipping prepare when snapshot reports target already exists** [#3793](https://github.com/containerd/containerd/pull/3793)
-* **Add filters to walk function** [#3709](https://github.com/containerd/containerd/pull/3709)
-* **Support for FUSE mounts** [#3765](https://github.com/containerd/containerd/pull/3765)
-* **Snapshotter options passed to backend** [#4080](https://github.com/containerd/containerd/pull/4080)
+* **Support target snapshot option on prepare to allow skipping prepare when snapshot reports target already exists** [#3793](https://github.com/demonoid81/containerd/pull/3793)
+* **Add filters to walk function** [#3709](https://github.com/demonoid81/containerd/pull/3709)
+* **Support for FUSE mounts** [#3765](https://github.com/demonoid81/containerd/pull/3765)
+* **Snapshotter options passed to backend** [#4080](https://github.com/demonoid81/containerd/pull/4080)
 * **Support for lazy-pull snapshotters such as [stargz-snapshotter](https://github.com/containerd/stargz-snapshotter)**
 
 ### Plugins
-* **Proxy snapshotter support for cleanup** [#3925](https://github.com/containerd/containerd/pull/3925)
+* **Proxy snapshotter support for cleanup** [#3925](https://github.com/demonoid81/containerd/pull/3925)
 
 ### Client
-* **Add spec options for host device and privileged handling** [#3718](https://github.com/containerd/containerd/pull/3718)
-* **WithLease takes options for more flexibility** [#3719](https://github.com/containerd/containerd/pull/3719)
-* **Add unpack options for pull** [#3826](https://github.com/containerd/containerd/pull/3826)
-* **Improve host fallback behaviour in docker remote** [#3868](https://github.com/containerd/containerd/pull/3868)
-* **Defer layer download until unpack to support skipping download when snapshotter reports already exists** [#3870](https://github.com/containerd/containerd/pull/3870)
-* **Split UID and GID namespace mapping in spec generation** [#3881](https://github.com/containerd/containerd/pull/3881)
-* **Propagate snapshotter layer annotations on unpack** [#3911](https://github.com/containerd/containerd/pull/3911)
-* **Create image record after blob download to fix concurrent download issue** [#3972](https://github.com/containerd/containerd/pull/3972)
-* **Add Linux resources to spec options** [#4083](https://github.com/containerd/containerd/pull/4083)
-* **New registry configuration tooling for improved mirror and endpoint options** [#4138](https://github.com/containerd/containerd/pull/4138)
-* **Use spec's mountLabel when mounting container rootfs** [#4051](https://github.com/containerd/containerd/pull/4051)
+* **Add spec options for host device and privileged handling** [#3718](https://github.com/demonoid81/containerd/pull/3718)
+* **WithLease takes options for more flexibility** [#3719](https://github.com/demonoid81/containerd/pull/3719)
+* **Add unpack options for pull** [#3826](https://github.com/demonoid81/containerd/pull/3826)
+* **Improve host fallback behaviour in docker remote** [#3868](https://github.com/demonoid81/containerd/pull/3868)
+* **Defer layer download until unpack to support skipping download when snapshotter reports already exists** [#3870](https://github.com/demonoid81/containerd/pull/3870)
+* **Split UID and GID namespace mapping in spec generation** [#3881](https://github.com/demonoid81/containerd/pull/3881)
+* **Propagate snapshotter layer annotations on unpack** [#3911](https://github.com/demonoid81/containerd/pull/3911)
+* **Create image record after blob download to fix concurrent download issue** [#3972](https://github.com/demonoid81/containerd/pull/3972)
+* **Add Linux resources to spec options** [#4083](https://github.com/demonoid81/containerd/pull/4083)
+* **New registry configuration tooling for improved mirror and endpoint options** [#4138](https://github.com/demonoid81/containerd/pull/4138)
+* **Use spec's mountLabel when mounting container rootfs** [#4051](https://github.com/demonoid81/containerd/pull/4051)
 
 ### API
-* **Add filters to snapshot list** [#3709](https://github.com/containerd/containerd/pull/3709)
-* **Add snapshot cleanup** [#3925](https://github.com/containerd/containerd/pull/3925)
+* **Add filters to snapshot list** [#3709](https://github.com/demonoid81/containerd/pull/3709)
+* **Add snapshot cleanup** [#3925](https://github.com/demonoid81/containerd/pull/3925)
 
 ### Daemon
-* **Support NOTIFY_SOCKET for notifying the daemon's readiness to systemd** [#4088](https://github.com/containerd/containerd/pull/4088)
+* **Support NOTIFY_SOCKET for notifying the daemon's readiness to systemd** [#4088](https://github.com/demonoid81/containerd/pull/4088)
 
 ### Windows
-* **Disk usage support in snapshotter** [#3785](https://github.com/containerd/containerd/pull/3785)
-* **Add support for custom wcow and lcow sandbox scratch sizes** [#3965](https://github.com/containerd/containerd/pull/3965)
-* **Enable CRI plugin** [#4076](https://github.com/containerd/containerd/pull/4076)
+* **Disk usage support in snapshotter** [#3785](https://github.com/demonoid81/containerd/pull/3785)
+* **Add support for custom wcow and lcow sandbox scratch sizes** [#3965](https://github.com/demonoid81/containerd/pull/3965)
+* **Enable CRI plugin** [#4076](https://github.com/demonoid81/containerd/pull/4076)
 
 ### CRI
 

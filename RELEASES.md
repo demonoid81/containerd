@@ -14,7 +14,7 @@ backport targets and API stability guarantees will be updated here as they
 change.
 
 If there is something that you require or this document leaves out, please
-reach out by [filing an issue](https://github.com/containerd/containerd/issues).
+reach out by [filing an issue](https://github.com/demonoid81/containerd/issues).
 
 ## Releases
 
@@ -29,7 +29,7 @@ considered "pre-releases".
 
 Major and minor releases of containerd will be made from master. Releases of
 containerd will be marked with GPG signed tags and announced at
-https://github.com/containerd/containerd/releases. The tag will be of the
+https://github.com/demonoid81/containerd/releases. The tag will be of the
 format `v<major>.<minor>.<patch>` and should be made with the command `git tag
 -s v<major>.<minor>.<patch>`.
 
@@ -67,7 +67,7 @@ year with bug fixes and security patches.
 ### Next Release
 
 The activity for the next release will be tracked in the
-[milestones](https://github.com/containerd/containerd/milestones). If your
+[milestones](https://github.com/demonoid81/containerd/milestones). If your
 issue or PR is not present in a milestone, please reach out to the maintainers
 to create the milestone or add an issue or PR to an existing milestone.
 
@@ -93,14 +93,14 @@ The current state is available in the following table:
 
 | Release | Status      | Start            | End of Life       |
 |---------|-------------|------------------|-------------------|
-| [0.0](https://github.com/containerd/containerd/releases/tag/0.0.5)  | End of Life | Dec 4, 2015  | - |
-| [0.1](https://github.com/containerd/containerd/releases/tag/v0.1.0) | End of Life | Mar 21, 2016 | - |
-| [0.2](https://github.com/containerd/containerd/tree/v0.2.x)         | End of Life | Apr 21, 2016      | December 5, 2017 |
-| [1.0](https://github.com/containerd/containerd/releases/tag/v1.0.3) | End of Life | December 5, 2017  | December 5, 2018 |
-| [1.1](https://github.com/containerd/containerd/releases/tag/v1.1.8) | End of Life | April 23, 2018  | October 23, 2019 |
-| [1.2](https://github.com/containerd/containerd/releases/tag/v1.2.13) | Extended   | October 24, 2018 | September 26, 2020 |
-| [1.3](https://github.com/containerd/containerd/releases/tag/v1.3.3)  | Active   | September 26, 2019  | max(September 26, 2020, release of 1.4.0 + 6 months) |
-| [1.4](https://github.com/containerd/containerd/milestone/27)        | Next   | TBD  | max(TBD+1 year, release of 1.5.0 + 6 months) |
+| [0.0](https://github.com/demonoid81/containerd/releases/tag/0.0.5)  | End of Life | Dec 4, 2015  | - |
+| [0.1](https://github.com/demonoid81/containerd/releases/tag/v0.1.0) | End of Life | Mar 21, 2016 | - |
+| [0.2](https://github.com/demonoid81/containerd/tree/v0.2.x)         | End of Life | Apr 21, 2016      | December 5, 2017 |
+| [1.0](https://github.com/demonoid81/containerd/releases/tag/v1.0.3) | End of Life | December 5, 2017  | December 5, 2018 |
+| [1.1](https://github.com/demonoid81/containerd/releases/tag/v1.1.8) | End of Life | April 23, 2018  | October 23, 2019 |
+| [1.2](https://github.com/demonoid81/containerd/releases/tag/v1.2.13) | Extended   | October 24, 2018 | September 26, 2020 |
+| [1.3](https://github.com/demonoid81/containerd/releases/tag/v1.3.3)  | Active   | September 26, 2019  | max(September 26, 2020, release of 1.4.0 + 6 months) |
+| [1.4](https://github.com/demonoid81/containerd/milestone/27)        | Next   | TBD  | max(TBD+1 year, release of 1.5.0 + 6 months) |
 
 Note that branches and release from before 1.0 may not follow these rules.
 
@@ -175,7 +175,7 @@ containerd versions:
 | Metrics API      | Stable   | 1.0                | - |
 | Runtime Shim API | Stable   | 1.2                | - |
 | Daemon Config    | Stable   | 1.0			       | - |
-| Go client API    | Unstable | _future_           | [godoc](https://godoc.org/github.com/containerd/containerd) |
+| Go client API    | Unstable | _future_           | [godoc](https://godoc.org/github.com/demonoid81/containerd) |
 | CRI GRPC API     | Unstable | v1alpha2 _current_ | [api/](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubelet/apis/cri/runtime/v1alpha2) |
 | `ctr` tool       | Unstable | Out of scope       | - |
 
@@ -244,7 +244,7 @@ follow that format.
 ### Go client API
 
 The Go client API, documented in
-[godoc](https://godoc.org/github.com/containerd/containerd), is currently
+[godoc](https://godoc.org/github.com/demonoid81/containerd), is currently
 considered unstable. It is recommended to vendor the necessary components to
 stabilize your project build. Note that because the Go API interfaces with the
 GRPC API, clients written against a 1.0 Go API should remain compatible with

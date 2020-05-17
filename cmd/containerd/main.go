@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containerd/containerd/cmd/containerd/command"
-	"github.com/containerd/containerd/pkg/seed"
+	"github.com/demonoid81/containerd/cmd/containerd/command"
+	"github.com/demonoid81/containerd/pkg/seed"
 )
 
 func init() {

@@ -20,9 +20,9 @@ import (
 	"context"
 	"io"
 
-	contentapi "github.com/containerd/containerd/api/services/content/v1"
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/errdefs"
+	contentapi "github.com/demonoid81/containerd/api/services/content/v1"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/errdefs"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

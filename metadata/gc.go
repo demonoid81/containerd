@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containerd/containerd/gc"
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/gc"
+	"github.com/demonoid81/containerd/log"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 )

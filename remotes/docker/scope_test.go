@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/containerd/containerd/reference"
+	"github.com/demonoid81/containerd/reference"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 )

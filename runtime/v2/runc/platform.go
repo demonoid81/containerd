@@ -25,7 +25,7 @@ import (
 	"syscall"
 
 	"github.com/containerd/console"
-	"github.com/containerd/containerd/pkg/stdio"
+	"github.com/demonoid81/containerd/pkg/stdio"
 	"github.com/containerd/fifo"
 	"github.com/pkg/errors"
 )

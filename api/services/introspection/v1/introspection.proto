@@ -2,12 +2,12 @@ syntax = "proto3";
 
 package containerd.services.introspection.v1;
 
-import "github.com/containerd/containerd/api/types/platform.proto";
+import "github.com/demonoid81/containerd/api/types/platform.proto";
 import "google/rpc/status.proto";
 import "google/protobuf/empty.proto";
 import weak "gogoproto/gogo.proto";
 
-option go_package = "github.com/containerd/containerd/api/services/introspection/v1;introspection";
+option go_package = "github.com/demonoid81/containerd/api/services/introspection/v1;introspection";
 
 service Introspection {
 	// Plugins returns a list of plugins in containerd.

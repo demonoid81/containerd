@@ -30,9 +30,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/containerd/containerd/cio"
-	"github.com/containerd/containerd/oci"
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/cio"
+	"github.com/demonoid81/containerd/oci"
+	"github.com/demonoid81/containerd/plugin"
 )
 
 const (

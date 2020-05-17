@@ -19,13 +19,13 @@ package snapshots
 import (
 	"context"
 
-	eventstypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/metadata"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/services"
-	"github.com/containerd/containerd/snapshots"
+	eventstypes "github.com/demonoid81/containerd/api/events"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/metadata"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/services"
+	"github.com/demonoid81/containerd/snapshots"
 )
 
 // snapshotter wraps snapshots.Snapshotter with proper events published.

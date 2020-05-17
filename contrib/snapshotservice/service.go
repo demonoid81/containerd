@@ -19,11 +19,11 @@ package snapshotservice
 import (
 	"context"
 
-	snapshotsapi "github.com/containerd/containerd/api/services/snapshots/v1"
-	"github.com/containerd/containerd/api/types"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/snapshots"
+	snapshotsapi "github.com/demonoid81/containerd/api/services/snapshots/v1"
+	"github.com/demonoid81/containerd/api/types"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/snapshots"
 	ptypes "github.com/gogo/protobuf/types"
 )
 

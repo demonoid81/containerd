@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/containerd/containerd/archive"
-	"github.com/containerd/containerd/archive/compression"
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/images"
+	"github.com/demonoid81/containerd/archive"
+	"github.com/demonoid81/containerd/archive/compression"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/images"
 	"github.com/pkg/errors"
 )
 

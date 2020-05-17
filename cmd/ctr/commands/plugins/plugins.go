@@ -23,9 +23,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/containerd/containerd/api/types"
-	"github.com/containerd/containerd/cmd/ctr/commands"
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd/api/types"
+	"github.com/demonoid81/containerd/cmd/ctr/commands"
+	"github.com/demonoid81/containerd/platforms"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/urfave/cli"
 	"google.golang.org/grpc/codes"

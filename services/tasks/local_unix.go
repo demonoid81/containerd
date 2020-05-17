@@ -19,9 +19,9 @@
 package tasks
 
 import (
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/runtime"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/runtime"
 	"github.com/pkg/errors"
 )
 

@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/content/testsuite"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/content/testsuite"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/pkg/errors"
 )
 

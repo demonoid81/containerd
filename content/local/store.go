@@ -29,10 +29,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/filters"
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/filters"
+	"github.com/demonoid81/containerd/log"
 	"github.com/sirupsen/logrus"
 
 	digest "github.com/opencontainers/go-digest"
@@ -461,7 +461,7 @@ func (s *store) Writer(ctx context.Context, opts ...content.WriterOpt) (content.
 		}
 	}
 	// TODO(AkihiroSuda): we could create a random string or one calculated based on the context
-	// https://github.com/containerd/containerd/issues/2129#issuecomment-380255019
+	// https://github.com/demonoid81/containerd/issues/2129#issuecomment-380255019
 	if wOpts.Ref == "" {
 		return nil, errors.Wrap(errdefs.ErrInvalidArgument, "ref must not be empty")
 	}

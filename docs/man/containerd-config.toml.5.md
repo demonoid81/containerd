@@ -134,7 +134,7 @@ imports = ["/etc/containerd/runtime_*.toml", "./debug.toml"]
 ## BUGS
 
 Please file any specific issues that you encounter at
-https://github.com/containerd/containerd.
+https://github.com/demonoid81/containerd.
 
 ## AUTHOR
 

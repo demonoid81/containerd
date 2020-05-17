@@ -26,9 +26,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/log"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

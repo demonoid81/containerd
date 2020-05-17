@@ -19,10 +19,10 @@ package containerd
 import (
 	"context"
 
-	imagesapi "github.com/containerd/containerd/api/services/images/v1"
-	"github.com/containerd/containerd/api/types"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/images"
+	imagesapi "github.com/demonoid81/containerd/api/services/images/v1"
+	"github.com/demonoid81/containerd/api/types"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/images"
 	ptypes "github.com/gogo/protobuf/types"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

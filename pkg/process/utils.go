@@ -30,7 +30,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/containerd/containerd/errdefs"
+	"github.com/demonoid81/containerd/errdefs"
 	runc "github.com/containerd/go-runc"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"

@@ -19,7 +19,7 @@
 #
 set -eu -o pipefail
 
-ROOT=${GOPATH}/src/github.com/containerd/containerd
+ROOT=${GOPATH}/src/github.com/demonoid81/containerd
 BUCKET="gs://cri-containerd-release"
 
 rm -rf "${HOME}/google-cloud-sdk"

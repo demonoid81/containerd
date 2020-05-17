@@ -20,11 +20,11 @@ package cgroups
 
 import (
 	"github.com/containerd/cgroups"
-	v1 "github.com/containerd/containerd/metrics/cgroups/v1"
-	v2 "github.com/containerd/containerd/metrics/cgroups/v2"
-	"github.com/containerd/containerd/platforms"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/runtime"
+	v1 "github.com/demonoid81/containerd/metrics/cgroups/v1"
+	v2 "github.com/demonoid81/containerd/metrics/cgroups/v2"
+	"github.com/demonoid81/containerd/platforms"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/runtime"
 	metrics "github.com/docker/go-metrics"
 )
 

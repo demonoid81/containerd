@@ -25,7 +25,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 )

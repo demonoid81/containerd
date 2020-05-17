@@ -24,9 +24,9 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/runtime"
+	"github.com/demonoid81/containerd/api/events"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/runtime"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

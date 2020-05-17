@@ -19,9 +19,9 @@
 package main
 
 import (
-	_ "github.com/containerd/containerd/diff/lcow"
-	_ "github.com/containerd/containerd/diff/windows"
-	_ "github.com/containerd/containerd/runtime/v2"
-	_ "github.com/containerd/containerd/snapshots/lcow"
-	_ "github.com/containerd/containerd/snapshots/windows"
+	_ "github.com/demonoid81/containerd/diff/lcow"
+	_ "github.com/demonoid81/containerd/diff/windows"
+	_ "github.com/demonoid81/containerd/runtime/v2"
+	_ "github.com/demonoid81/containerd/snapshots/lcow"
+	_ "github.com/demonoid81/containerd/snapshots/windows"
 )

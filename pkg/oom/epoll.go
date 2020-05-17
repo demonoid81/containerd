@@ -23,9 +23,9 @@ import (
 	"sync"
 
 	"github.com/containerd/cgroups"
-	eventstypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/runtime"
-	"github.com/containerd/containerd/runtime/v2/shim"
+	eventstypes "github.com/demonoid81/containerd/api/events"
+	"github.com/demonoid81/containerd/runtime"
+	"github.com/demonoid81/containerd/runtime/v2/shim"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 )

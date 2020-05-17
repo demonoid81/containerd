@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/remotes/docker"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/remotes/docker"
 	"github.com/pkg/errors"
 )
 

@@ -32,13 +32,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"
 
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/pkg/testutil"
-	"github.com/containerd/containerd/snapshots"
-	"github.com/containerd/containerd/snapshots/devmapper/dmsetup"
-	"github.com/containerd/containerd/snapshots/devmapper/losetup"
-	"github.com/containerd/containerd/snapshots/testsuite"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots/devmapper/dmsetup"
+	"github.com/demonoid81/containerd/snapshots/devmapper/losetup"
+	"github.com/demonoid81/containerd/snapshots/testsuite"
 )
 
 func TestSnapshotterSuite(t *testing.T) {

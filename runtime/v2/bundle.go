@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containerd/containerd/identifiers"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/identifiers"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/pkg/errors"
 )
 

@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/filters"
-	"github.com/containerd/containerd/images"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/filters"
+	"github.com/demonoid81/containerd/images"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

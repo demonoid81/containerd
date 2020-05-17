@@ -17,7 +17,7 @@
 package shim
 
 import (
-	"github.com/containerd/containerd/sys/reaper"
+	"github.com/demonoid81/containerd/sys/reaper"
 	"github.com/containerd/ttrpc"
 )
 

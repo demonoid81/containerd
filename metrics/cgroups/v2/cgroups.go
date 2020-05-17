@@ -21,10 +21,10 @@ package v2
 import (
 	"context"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/runtime"
-	"github.com/containerd/containerd/runtime/v1/linux"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/runtime"
+	"github.com/demonoid81/containerd/runtime/v1/linux"
 	metrics "github.com/docker/go-metrics"
 )
 

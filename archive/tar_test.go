@@ -33,8 +33,8 @@ import (
 
 	_ "crypto/sha256"
 
-	"github.com/containerd/containerd/archive/tartest"
-	"github.com/containerd/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/archive/tartest"
+	"github.com/demonoid81/containerd/pkg/testutil"
 	"github.com/containerd/continuity/fs"
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/pkg/errors"

@@ -24,7 +24,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/sys"
 	"github.com/containerd/continuity/fs"
 	"github.com/containerd/continuity/sysx"
 	"github.com/pkg/errors"

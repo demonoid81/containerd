@@ -12,7 +12,7 @@ If you need to install Go or update your currently installed one, please refer t
 
 ## Starting containerd
 
-You can download one of the latest builds for containerd on the [github releases](https://github.com/containerd/containerd/releases) page and then use your favorite process supervisor to get the daemon started.
+You can download one of the latest builds for containerd on the [github releases](https://github.com/demonoid81/containerd/releases) page and then use your favorite process supervisor to get the daemon started.
 If you are using systemd, we have a `containerd.service` file at the root of the repository that you can use.
 
 The daemon also uses a configuration file located in `/etc/containerd/config.toml` for specifying daemon level options.
@@ -45,7 +45,7 @@ package main
 import (
 	"log"
 
-	"github.com/containerd/containerd"
+	"github.com/demonoid81/containerd"
 )
 
 func main() {
@@ -99,8 +99,8 @@ import (
         "context"
         "log"
 
-        "github.com/containerd/containerd"
-        "github.com/containerd/containerd/namespaces"
+        "github.com/demonoid81/containerd"
+        "github.com/demonoid81/containerd/namespaces"
 )
 
 func main() {
@@ -171,9 +171,9 @@ import (
         "context"
         "log"
 
-        "github.com/containerd/containerd"
-        "github.com/containerd/containerd/oci"
-        "github.com/containerd/containerd/namespaces"
+        "github.com/demonoid81/containerd"
+        "github.com/demonoid81/containerd/oci"
+        "github.com/demonoid81/containerd/namespaces"
 )
 
 func main() {
@@ -318,10 +318,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/cio"
-	"github.com/containerd/containerd/oci"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/cio"
+	"github.com/demonoid81/containerd/oci"
+	"github.com/demonoid81/containerd/namespaces"
 )
 
 func main() {

@@ -19,12 +19,12 @@ package containerd
 import (
 	"context"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/platforms"
-	"github.com/containerd/containerd/remotes"
-	"github.com/containerd/containerd/remotes/docker"
-	"github.com/containerd/containerd/remotes/docker/schema1"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/platforms"
+	"github.com/demonoid81/containerd/remotes"
+	"github.com/demonoid81/containerd/remotes/docker"
+	"github.com/demonoid81/containerd/remotes/docker/schema1"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"

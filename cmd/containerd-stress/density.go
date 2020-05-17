@@ -29,10 +29,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/cio"
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/oci"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/cio"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/oci"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/gc"
+	"github.com/demonoid81/containerd/gc"
 	"gotest.tools/v3/assert"
 )
 

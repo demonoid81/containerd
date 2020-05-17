@@ -21,7 +21,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/log"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

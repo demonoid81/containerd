@@ -19,8 +19,8 @@
 package main
 
 import (
-	v1 "github.com/containerd/containerd/runtime/v2/runc/v1"
-	"github.com/containerd/containerd/runtime/v2/shim"
+	v1 "github.com/demonoid81/containerd/runtime/v2/runc/v1"
+	"github.com/demonoid81/containerd/runtime/v2/shim"
 )
 
 func main() {

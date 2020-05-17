@@ -38,13 +38,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/pkg/dialer"
-	v1 "github.com/containerd/containerd/runtime/v1"
-	"github.com/containerd/containerd/runtime/v1/shim"
-	shimapi "github.com/containerd/containerd/runtime/v1/shim/v1"
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/pkg/dialer"
+	v1 "github.com/demonoid81/containerd/runtime/v1"
+	"github.com/demonoid81/containerd/runtime/v1/shim"
+	shimapi "github.com/demonoid81/containerd/runtime/v1/shim/v1"
+	"github.com/demonoid81/containerd/sys"
 	ptypes "github.com/gogo/protobuf/types"
 )
 

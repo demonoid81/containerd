@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/containerd/containerd/images/archive"
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd/images/archive"
+	"github.com/demonoid81/containerd/platforms"
 )
 
 // TestExport exports testImage as a tar stream

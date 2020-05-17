@@ -9,8 +9,8 @@
 ARG GOLANG_VERSION=1.13.10
 
 FROM golang:${GOLANG_VERSION} AS golang-base
-RUN mkdir -p /go/src/github.com/containerd/containerd
-WORKDIR /go/src/github.com/containerd/containerd
+RUN mkdir -p /go/src/github.com/demonoid81/containerd
+WORKDIR /go/src/github.com/demonoid81/containerd
 
 # Install proto3
 FROM golang-base AS proto3

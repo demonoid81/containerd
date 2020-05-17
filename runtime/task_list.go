@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/pkg/errors"
 )
 

@@ -17,8 +17,8 @@
 package command
 
 import (
-	"github.com/containerd/containerd/defaults"
-	srvconfig "github.com/containerd/containerd/services/server/config"
+	"github.com/demonoid81/containerd/defaults"
+	srvconfig "github.com/demonoid81/containerd/services/server/config"
 )
 
 func defaultConfig() *srvconfig.Config {

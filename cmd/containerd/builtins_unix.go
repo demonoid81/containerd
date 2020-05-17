@@ -19,5 +19,5 @@
 package main
 
 import (
-	_ "github.com/containerd/containerd/snapshots/native"
+	_ "github.com/demonoid81/containerd/snapshots/native"
 )

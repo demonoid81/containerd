@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/containerd/containerd/errdefs"
+	"github.com/demonoid81/containerd/errdefs"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

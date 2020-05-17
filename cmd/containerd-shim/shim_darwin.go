@@ -22,7 +22,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/containerd/containerd/sys/reaper"
+	"github.com/demonoid81/containerd/sys/reaper"
 	runc "github.com/containerd/go-runc"
 	"github.com/containerd/ttrpc"
 )

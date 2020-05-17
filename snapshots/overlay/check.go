@@ -24,8 +24,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/mount"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/mount"
 	"github.com/containerd/continuity/fs"
 	"github.com/pkg/errors"
 )

@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/log"
 )
 
 type (

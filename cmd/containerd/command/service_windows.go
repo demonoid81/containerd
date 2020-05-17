@@ -26,8 +26,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/services/server"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/services/server"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"

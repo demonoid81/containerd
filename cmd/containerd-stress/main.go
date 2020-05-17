@@ -28,9 +28,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/plugin"
 	metrics "github.com/docker/go-metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"

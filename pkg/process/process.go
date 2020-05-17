@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/containerd/console"
-	"github.com/containerd/containerd/pkg/stdio"
+	"github.com/demonoid81/containerd/pkg/stdio"
 )
 
 // Process on a system

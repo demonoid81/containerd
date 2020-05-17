@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	eventstypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/namespaces"
+	eventstypes "github.com/demonoid81/containerd/api/events"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/containerd/typeurl"
 	"github.com/pkg/errors"
 )

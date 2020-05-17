@@ -19,9 +19,9 @@ package version
 import (
 	"context"
 
-	api "github.com/containerd/containerd/api/services/version/v1"
-	"github.com/containerd/containerd/plugin"
-	ctrdversion "github.com/containerd/containerd/version"
+	api "github.com/demonoid81/containerd/api/services/version/v1"
+	"github.com/demonoid81/containerd/plugin"
+	ctrdversion "github.com/demonoid81/containerd/version"
 	ptypes "github.com/gogo/protobuf/types"
 	"google.golang.org/grpc"
 )

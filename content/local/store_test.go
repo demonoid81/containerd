@@ -33,10 +33,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/content/testsuite"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/content/testsuite"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/pkg/testutil"
 
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

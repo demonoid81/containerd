@@ -34,7 +34,7 @@ import (
 
 	"github.com/Microsoft/go-winio"
 	"github.com/Microsoft/hcsshim"
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/sys"
 	"github.com/pkg/errors"
 )
 

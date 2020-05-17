@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots"
 )
 
 // Benchmarks returns a benchmark suite using the provided metadata store

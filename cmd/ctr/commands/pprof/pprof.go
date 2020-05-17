@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/containerd/containerd/defaults"
+	"github.com/demonoid81/containerd/defaults"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )

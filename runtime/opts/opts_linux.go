@@ -21,7 +21,7 @@ import (
 
 	"github.com/containerd/cgroups"
 	cgroupsv2 "github.com/containerd/cgroups/v2"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/namespaces"
 )
 
 // WithNamespaceCgroupDeletion removes the cgroup directory that was created for the namespace

@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/containerd/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/pkg/testutil"
 	"github.com/containerd/continuity/testutil/loopback"
 )
 

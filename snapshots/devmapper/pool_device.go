@@ -28,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/snapshots/devmapper/dmsetup"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/snapshots/devmapper/dmsetup"
 )
 
 // PoolDevice ties together data and metadata volumes, represents thin-pool and manages volumes, snapshots and device ids.

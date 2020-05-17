@@ -1,11 +1,11 @@
 ![containerd banner](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png)
 
-[![GoDoc](https://godoc.org/github.com/containerd/containerd?status.svg)](https://godoc.org/github.com/containerd/containerd)
-[![Build Status](https://github.com/containerd/containerd/workflows/CI/badge.svg)](https://github.com/containerd/containerd/actions?query=workflow%3ACI)
+[![GoDoc](https://godoc.org/github.com/demonoid81/containerd?status.svg)](https://godoc.org/github.com/demonoid81/containerd)
+[![Build Status](https://github.com/demonoid81/containerd/workflows/CI/badge.svg)](https://github.com/demonoid81/containerd/actions?query=workflow%3ACI)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/containerd/containerd?branch=master&svg=true)](https://ci.appveyor.com/project/mlaventure/containerd-3g73f?branch=master)
-[![Nightlies](https://github.com/containerd/containerd/workflows/Nightly/badge.svg)](https://github.com/containerd/containerd/actions?query=workflow%3ANightly)
+[![Nightlies](https://github.com/demonoid81/containerd/workflows/Nightly/badge.svg)](https://github.com/demonoid81/containerd/actions?query=workflow%3ANightly)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fcontainerd%2Fcontainerd.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fcontainerd%2Fcontainerd?ref=badge_shield)
-[![Go Report Card](https://goreportcard.com/badge/github.com/containerd/containerd)](https://goreportcard.com/report/github.com/containerd/containerd)
+[![Go Report Card](https://goreportcard.com/badge/github.com/demonoid81/containerd)](https://goreportcard.com/report/github.com/demonoid81/containerd)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1271/badge)](https://bestpractices.coreinfrastructure.org/projects/1271)
 
 containerd is an industry-standard container runtime with an emphasis on simplicity, robustness and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
@@ -27,7 +27,7 @@ If you are interested in trying out containerd see our example at [Getting Start
 
 ## Nightly builds
 
-There are nightly builds available for download [here](https://github.com/containerd/containerd/actions?query=workflow%3ANightly).
+There are nightly builds available for download [here](https://github.com/demonoid81/containerd/actions?query=workflow%3ANightly).
 Binaries are generated from `master` branch every night for `Linux` and `Windows`.
 
 Please be aware: nightly builds might have critical bugs, it's not recommended for use in prodution and no support provided.
@@ -63,8 +63,8 @@ containerd offers a full client package to help you integrate containerd into yo
 ```go
 
 import (
-  "github.com/containerd/containerd"
-  "github.com/containerd/containerd/cio"
+  "github.com/demonoid81/containerd"
+  "github.com/demonoid81/containerd/cio"
 )
 
 
@@ -218,7 +218,7 @@ Please see [RELEASES.md](RELEASES.md) for details on versioning and stability
 of containerd components.
 
 Downloadable 64-bit Intel/AMD binaries of all official releases are available on
-our [releases page](https://github.com/containerd/containerd/releases), as well as
+our [releases page](https://github.com/demonoid81/containerd/releases), as well as
 auto-published to the [cri-containerd-release storage bucket](https://console.cloud.google.com/storage/browser/cri-containerd-release?pli=1).
 
 For other architectures and distribution support, you will find that many

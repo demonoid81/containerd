@@ -22,8 +22,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/oci"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/oci"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

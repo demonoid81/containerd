@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/containerd/containerd/gc"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/plugin"
+	"github.com/demonoid81/containerd/gc"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/plugin"
 	"github.com/pkg/errors"
 )
 

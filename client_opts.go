@@ -19,10 +19,10 @@ package containerd
 import (
 	"time"
 
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/platforms"
-	"github.com/containerd/containerd/remotes"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/platforms"
+	"github.com/demonoid81/containerd/remotes"
+	"github.com/demonoid81/containerd/snapshots"
 
 	"google.golang.org/grpc"
 )

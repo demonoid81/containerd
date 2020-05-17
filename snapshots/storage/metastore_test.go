@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/snapshots"
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"

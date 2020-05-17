@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containerd/containerd/cmd/ctr/app"
-	"github.com/containerd/containerd/pkg/seed"
+	"github.com/demonoid81/containerd/cmd/ctr/app"
+	"github.com/demonoid81/containerd/pkg/seed"
 	"github.com/urfave/cli"
 )
 

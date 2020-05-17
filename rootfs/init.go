@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/snapshots"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

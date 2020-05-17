@@ -19,8 +19,8 @@ package oci
 import (
 	"context"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/snapshots"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

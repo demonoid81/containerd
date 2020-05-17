@@ -27,13 +27,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/mount"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/snapshots"
-	"github.com/containerd/containerd/snapshots/devmapper/dmsetup"
-	"github.com/containerd/containerd/snapshots/storage"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/mount"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/snapshots"
+	"github.com/demonoid81/containerd/snapshots/devmapper/dmsetup"
+	"github.com/demonoid81/containerd/snapshots/storage"
 	"github.com/hashicorp/go-multierror"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -76,7 +76,7 @@ const (
 
 type closeFunc func() error
 
-// Snapshotter implements containerd's snapshotter (https://godoc.org/github.com/containerd/containerd/snapshots#Snapshotter)
+// Snapshotter implements containerd's snapshotter (https://godoc.org/github.com/demonoid81/containerd/snapshots#Snapshotter)
 // based on Linux device-mapper targets.
 type Snapshotter struct {
 	store     *storage.MetaStore
@@ -285,7 +285,7 @@ func (s *Snapshotter) Commit(ctx context.Context, name, key string, opts ...snap
 		// Before deactivation, we need to flush the outstanding IO by suspend.
 		// Afterward, we resume it again to prevent a race window which may cause
 		// a process IO hang. See the issue below for details:
-		//   (https://github.com/containerd/containerd/issues/4234)
+		//   (https://github.com/demonoid81/containerd/issues/4234)
 		err = s.pool.SuspendDevice(ctx, deviceName)
 		if err != nil {
 			return err

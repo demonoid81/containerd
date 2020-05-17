@@ -19,11 +19,11 @@ package containerd
 import (
 	"context"
 
-	diffapi "github.com/containerd/containerd/api/services/diff/v1"
-	"github.com/containerd/containerd/api/types"
-	"github.com/containerd/containerd/diff"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/mount"
+	diffapi "github.com/demonoid81/containerd/api/services/diff/v1"
+	"github.com/demonoid81/containerd/api/types"
+	"github.com/demonoid81/containerd/diff"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/mount"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

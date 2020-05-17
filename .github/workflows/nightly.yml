@@ -23,7 +23,7 @@ jobs:
           GOPATH: ${{ runner.workspace }}
           GO111MODULE: off
         with:
-          path: ./src/github.com/containerd/containerd
+          path: ./src/github.com/demonoid81/containerd
 
       #
       # Build
@@ -134,7 +134,7 @@ jobs:
           GOPATH: ${{ runner.workspace }}
           GO111MODULE: off
         with:
-          path: ./src/github.com/containerd/containerd
+          path: ./src/github.com/demonoid81/containerd
 
       - name: Build amd64
         env:

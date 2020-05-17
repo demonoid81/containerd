@@ -28,7 +28,7 @@ import (
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 
-	"github.com/containerd/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/pkg/testutil"
 )
 
 func TestLosetup(t *testing.T) {

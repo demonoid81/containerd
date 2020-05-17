@@ -17,19 +17,19 @@
 package containerd
 
 import (
-	containersapi "github.com/containerd/containerd/api/services/containers/v1"
-	"github.com/containerd/containerd/api/services/diff/v1"
-	imagesapi "github.com/containerd/containerd/api/services/images/v1"
-	introspectionapi "github.com/containerd/containerd/api/services/introspection/v1"
-	namespacesapi "github.com/containerd/containerd/api/services/namespaces/v1"
-	"github.com/containerd/containerd/api/services/tasks/v1"
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/leases"
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/services/introspection"
-	"github.com/containerd/containerd/snapshots"
+	containersapi "github.com/demonoid81/containerd/api/services/containers/v1"
+	"github.com/demonoid81/containerd/api/services/diff/v1"
+	imagesapi "github.com/demonoid81/containerd/api/services/images/v1"
+	introspectionapi "github.com/demonoid81/containerd/api/services/introspection/v1"
+	namespacesapi "github.com/demonoid81/containerd/api/services/namespaces/v1"
+	"github.com/demonoid81/containerd/api/services/tasks/v1"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/leases"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/services/introspection"
+	"github.com/demonoid81/containerd/snapshots"
 )
 
 type services struct {

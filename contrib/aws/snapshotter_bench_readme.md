@@ -38,8 +38,8 @@ $ aws ec2 describe-instances \
 ```bash
 ssh -i SSH_KEY ec2-user@IP
 mkdir /mnt/disk1/data /mnt/disk2/data /mnt/disk3/data
-go get github.com/containerd/containerd
-cd $(go env GOPATH)/src/github.com/containerd/containerd
+go get github.com/demonoid81/containerd
+cd $(go env GOPATH)/src/github.com/demonoid81/containerd
 make
 ```
 
@@ -60,7 +60,7 @@ go test -bench . \
 ```bash
 goos: linux
 goarch: amd64
-pkg: github.com/containerd/containerd/snapshots/testsuite
+pkg: github.com/demonoid81/containerd/snapshots/testsuite
 
 BenchmarkOverlay/run-4             1       1019730210 ns/op	 164.53 MB/s
 BenchmarkOverlay/prepare           1         26799447 ns/op
@@ -73,7 +73,7 @@ BenchmarkDeviceMapper/write        1       1356705388 ns/op
 BenchmarkDeviceMapper/commit       1         23720367 ns/op
 
 PASS
-ok  	github.com/containerd/containerd/snapshots/testsuite	185.204s
+ok  	github.com/demonoid81/containerd/snapshots/testsuite	185.204s
 ```
 
 - Don't forget to tear down the stack so it does not continue to incur charges:

@@ -19,8 +19,8 @@ package metadata
 import (
 	"testing"
 
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/leases"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/leases"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 )

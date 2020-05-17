@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/containerd/containerd/log"
-	v2 "github.com/containerd/containerd/metrics/types/v2"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/log"
+	v2 "github.com/demonoid81/containerd/metrics/types/v2"
+	"github.com/demonoid81/containerd/namespaces"
 	"github.com/containerd/typeurl"
 	metrics "github.com/docker/go-metrics"
 	"github.com/gogo/protobuf/types"

@@ -19,7 +19,7 @@ package fieldpath
 import (
 	"strings"
 
-	"github.com/containerd/containerd/protobuf/plugin"
+	"github.com/demonoid81/containerd/protobuf/plugin"
 	"github.com/gogo/protobuf/gogoproto"
 	"github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
 	"github.com/gogo/protobuf/protoc-gen-gogo/generator"

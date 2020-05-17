@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/platforms"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"

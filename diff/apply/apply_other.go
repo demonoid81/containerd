@@ -22,8 +22,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/containerd/containerd/archive"
-	"github.com/containerd/containerd/mount"
+	"github.com/demonoid81/containerd/archive"
+	"github.com/demonoid81/containerd/mount"
 )
 
 func apply(ctx context.Context, mounts []mount.Mount, r io.Reader) error {

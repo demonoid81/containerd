@@ -20,14 +20,14 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/containerd/containerd/cmd/ctr/commands"
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/log"
+	"github.com/demonoid81/containerd/cmd/ctr/commands"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/log"
 	"github.com/containerd/typeurl"
 	"github.com/urfave/cli"
 
 	// Register grpc event types
-	_ "github.com/containerd/containerd/api/events"
+	_ "github.com/demonoid81/containerd/api/events"
 )
 
 // Command is the cli command for displaying containerd events

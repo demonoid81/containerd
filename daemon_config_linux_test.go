@@ -30,11 +30,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/oci"
-	"github.com/containerd/containerd/pkg/testutil"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/runtime/v2/runc/options"
-	srvconfig "github.com/containerd/containerd/services/server/config"
+	"github.com/demonoid81/containerd/oci"
+	"github.com/demonoid81/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/runtime/v2/runc/options"
+	srvconfig "github.com/demonoid81/containerd/services/server/config"
 )
 
 // the following nolint is for shutting up gometalinter on non-linux.

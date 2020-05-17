@@ -98,7 +98,7 @@ func (m *PoolMetadata) AddDevice(ctx context.Context, info *DeviceInfo) error {
 
 		// Make sure device name is unique. If there is already a device with the same name,
 		// but in Faulty state, give it a try with another devmapper device ID.
-		// See https://github.com/containerd/containerd/pull/3436 for more context.
+		// See https://github.com/demonoid81/containerd/pull/3436 for more context.
 		var existing DeviceInfo
 		if err := getObject(devicesBucket, info.Name, &existing); err == nil && existing.State != Faulty {
 			return ErrAlreadyExists

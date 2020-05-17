@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/images/archive"
-	"github.com/containerd/containerd/platforms"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/images/archive"
+	"github.com/demonoid81/containerd/platforms"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

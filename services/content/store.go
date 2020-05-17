@@ -19,12 +19,12 @@ package content
 import (
 	"context"
 
-	eventstypes "github.com/containerd/containerd/api/events"
-	"github.com/containerd/containerd/content"
-	"github.com/containerd/containerd/events"
-	"github.com/containerd/containerd/metadata"
-	"github.com/containerd/containerd/plugin"
-	"github.com/containerd/containerd/services"
+	eventstypes "github.com/demonoid81/containerd/api/events"
+	"github.com/demonoid81/containerd/content"
+	"github.com/demonoid81/containerd/events"
+	"github.com/demonoid81/containerd/metadata"
+	"github.com/demonoid81/containerd/plugin"
+	"github.com/demonoid81/containerd/services"
 	digest "github.com/opencontainers/go-digest"
 )
 

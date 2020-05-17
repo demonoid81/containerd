@@ -22,7 +22,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/containerd/containerd/runtime/linux/runctypes"
+	"github.com/demonoid81/containerd/runtime/linux/runctypes"
 )
 
 func TestWithNoNewKeyringAddsNoNewKeyringToOptions(t *testing.T) {

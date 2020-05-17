@@ -24,9 +24,9 @@ import (
 	"strings"
 
 	"github.com/containerd/console"
-	"github.com/containerd/containerd/remotes"
-	"github.com/containerd/containerd/remotes/docker"
-	"github.com/containerd/containerd/remotes/docker/config"
+	"github.com/demonoid81/containerd/remotes"
+	"github.com/demonoid81/containerd/remotes/docker"
+	"github.com/demonoid81/containerd/remotes/docker/config"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )

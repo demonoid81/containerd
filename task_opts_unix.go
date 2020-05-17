@@ -21,8 +21,8 @@ package containerd
 import (
 	"context"
 
-	"github.com/containerd/containerd/runtime/linux/runctypes"
-	"github.com/containerd/containerd/runtime/v2/runc/options"
+	"github.com/demonoid81/containerd/runtime/linux/runctypes"
+	"github.com/demonoid81/containerd/runtime/v2/runc/options"
 	"github.com/pkg/errors"
 )
 

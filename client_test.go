@@ -28,14 +28,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containerd/containerd/defaults"
-	"github.com/containerd/containerd/images"
-	"github.com/containerd/containerd/log"
-	"github.com/containerd/containerd/log/logtest"
-	"github.com/containerd/containerd/namespaces"
-	"github.com/containerd/containerd/pkg/testutil"
-	"github.com/containerd/containerd/platforms"
-	"github.com/containerd/containerd/sys"
+	"github.com/demonoid81/containerd/defaults"
+	"github.com/demonoid81/containerd/images"
+	"github.com/demonoid81/containerd/log"
+	"github.com/demonoid81/containerd/log/logtest"
+	"github.com/demonoid81/containerd/namespaces"
+	"github.com/demonoid81/containerd/pkg/testutil"
+	"github.com/demonoid81/containerd/platforms"
+	"github.com/demonoid81/containerd/sys"
 	"github.com/sirupsen/logrus"
 )
 

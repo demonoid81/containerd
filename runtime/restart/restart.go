@@ -32,8 +32,8 @@ package restart
 import (
 	"context"
 
-	"github.com/containerd/containerd"
-	"github.com/containerd/containerd/containers"
+	"github.com/demonoid81/containerd"
+	"github.com/demonoid81/containerd/containers"
 )
 
 const (

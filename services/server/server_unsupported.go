@@ -21,7 +21,7 @@ package server
 import (
 	"context"
 
-	srvconfig "github.com/containerd/containerd/services/server/config"
+	srvconfig "github.com/demonoid81/containerd/services/server/config"
 	"github.com/containerd/ttrpc"
 )
 

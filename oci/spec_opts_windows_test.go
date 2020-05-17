@@ -22,8 +22,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/namespaces"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/namespaces"
 )
 
 func TestWithCPUCount(t *testing.T) {

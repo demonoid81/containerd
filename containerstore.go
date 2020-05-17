@@ -21,9 +21,9 @@ import (
 	"errors"
 	"io"
 
-	containersapi "github.com/containerd/containerd/api/services/containers/v1"
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/errdefs"
+	containersapi "github.com/demonoid81/containerd/api/services/containers/v1"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/errdefs"
 	ptypes "github.com/gogo/protobuf/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

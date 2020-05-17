@@ -19,10 +19,10 @@ package containerd
 import (
 	"context"
 
-	"github.com/containerd/containerd/containers"
-	"github.com/containerd/containerd/errdefs"
-	"github.com/containerd/containerd/oci"
-	"github.com/containerd/containerd/snapshots"
+	"github.com/demonoid81/containerd/containers"
+	"github.com/demonoid81/containerd/errdefs"
+	"github.com/demonoid81/containerd/oci"
+	"github.com/demonoid81/containerd/snapshots"
 	"github.com/containerd/typeurl"
 	"github.com/gogo/protobuf/types"
 	"github.com/opencontainers/image-spec/identity"
